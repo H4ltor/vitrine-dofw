@@ -1,7 +1,10 @@
- export default function Home() {
+import Cards from "../Components/Cards";
+
+export default function Home() {
      return(
          <div>
-             home page
+
+             <Cards/>
          </div>
      )
 }
