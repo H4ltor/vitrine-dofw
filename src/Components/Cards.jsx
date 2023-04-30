@@ -1,4 +1,4 @@
-
+import "./Cards.css";
 function Cards() {
     return(
         <div>

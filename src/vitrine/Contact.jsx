@@ -1,6 +1,6 @@
 import {useRef} from "react";
 import emailjs from '@emailjs/browser';
-
+import './Contact.css';
 function Contact() {
 
     const form = useRef()
@@ -21,20 +21,9 @@ function Contact() {
         <div>
             <div className="card">
                 <div className="card-header">
+                    <p>CONTACT</p>
                 </div>
-                <div className="card-body">
-                    <blockquote className="blockquote mb-0">
-                        <p>CONTACT</p>
-                        <footer className="footer">is simply dummy text of the printing and typesetting
-                            industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                            the 1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. It has survived not only five centuries, but also
-                            the leap into electronic typesetting, remaining essentially unchanged. It was
-                            popularised in the 1960s with the release of Letraset sheets containing Lorem
-                            Ipsum passages, and more recently with desktop publishing software like Aldus
-                            PageMaker including versions of Lorem Ipsum.</footer>
-                    </blockquote>
-                </div>
+
             </div>
 
             <div className="container">

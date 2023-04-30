@@ -1,0 +1,37 @@
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 1448px;
+    background-color: #956544;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', 'bold', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d81212;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}

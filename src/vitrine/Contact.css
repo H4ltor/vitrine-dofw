@@ -1,0 +1,19 @@
+.card {
+    margin-top: 8rem;
+}
+.card-header {
+    background-color: #FFFFFF;
+
+}
+
+.title {
+
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #665852;
+}
