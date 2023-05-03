@@ -1,4 +1,4 @@
-import Cards from "../Components/Cards";
+import Valeur1 from "../Components/Valeur1";
 import './Valeurs.css';
 export default function Valeurs()
 {
@@ -8,7 +8,7 @@ export default function Valeurs()
 
             <h6 className="title">LES VALEURS DE DYNASTY OF WO/MEN</h6>
 
-            <Cards/>
+            <Valeur1/>
 
         </div>
 

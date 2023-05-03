@@ -17,11 +17,23 @@ function Contact() {
         e.target.reset()
     };
 
+    const styles2 = {
+        display: 'flex',
+        flexDirection: 'column',
+        padding: '22px 24px',
+        gap: '10px',
+        width: '456px',
+        height: '64px',
+        borderBlock: '1px solid #474747',
+        borderRadius: '5px',
+        textAlign: "end",
+    }
+
     return (
         <div>
-            <div className="card">
-                <div className="card-header">
-                    <p>CONTACT</p>
+            <div className="card border-0 col-md-auto">
+                <div className="card-body">
+                    CONTACT
                 </div>
 
             </div>
@@ -30,9 +42,9 @@ function Contact() {
 
                 <form ref={form} onSubmit={sendEmail}
                       action="" method="POST" target="_blank">
-                    <h3 style={{ textAlign: "center" }}>Formulaire de Contact</h3>
-                    <div className="form-group">
-                        <label htmlFor="email">Email address</label>
+                    <h3 style={{ textAlign: "end" }}>Formulaire de Contact</h3>
+                    <div className="form-group col align-items-end">
+                        <label htmlFor="email" >Email address</label>
                         <input
                             name="email"
                             type="email"
@@ -42,7 +54,7 @@ function Contact() {
                             required=""
                         />
                     </div>
-                    <div className="form-group">
+                    <div className="form-group col align-items-end">
                         <label htmlFor="message">Message</label>
                         <textarea
                             name="message"
@@ -54,13 +66,11 @@ function Contact() {
                             defaultValue={""}
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary float-right">
+                    <button type="submit" className="btn btn-primary float-right col align-items-end">
                         Submit
                     </button>
                 </form>
-
             </div>
-            //medias incons
         </div>
     )
 }

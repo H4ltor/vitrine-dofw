@@ -1,0 +1,56 @@
+
+body {
+    background-color: #FFFFFF;
+}
+.card-body {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #665852;
+
+}
+
+#intro {
+    ont-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+    text-align: center;
+    color: #474747;
+}
+.container {
+    margin-top: 8rem;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card-title {
+    text-transform: uppercase;
+    color: #665852;
+;
+}
+
+.card-text {
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:#FFFFFF;
+    color:#000000;
+}
+a.btn, a.btn:visited {
+    color:#333333;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

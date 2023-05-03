@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./vitrine/Home";
 import Valeurs from "./vitrine/Valeurs";
 import Contact from "./vitrine/Contact";
+import './assets/font.css';
 import Blog from "./vitrine/Blog";
 import Footer from "./footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,13 +17,13 @@ function App() {
     <div>
         <BrowserRouter>
             <Navigation/>
-            <Footer/>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/valeurs" element={<Valeurs/>}/>
                 <Route path="/blog" element={<Blog/>}/>
                 <Route path="/contact" element={<Contact/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
 
     </div>
