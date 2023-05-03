@@ -4,7 +4,7 @@ function Footer()
 {
     const styles = {
         backgroundColor: '#0b2447',
-        width: '1448px',
+        width: '100%',
         height: '100px',
     };
 
